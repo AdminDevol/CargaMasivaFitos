@@ -1,0 +1,67 @@
+{
+  "name": "Creacion_actualización_datos_fitos",
+  "description": "Descripcion del Proceso Devol Template ",
+  "main": "Main.xaml",
+  "dependencies": {
+    "DEVOL_FWK_LIBRARY": "22.2.2",
+    "UiPath.Excel.Activities": "2.10.4",
+    "UiPath.System.Activities": "21.4.0",
+    "UiPath.UIAutomation.Activities": "21.4.3",
+    "UiPath.WebAPI.Activities": "1.7.0"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "6fc4848e-2658-4f87-9230-777b8f3f5202",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\_UploadQueueItems.xaml",
+      "uniqueId": "7e7a34fb-7607-475e-8f6e-bcf6b49ac0dc",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": "https://raw.githubusercontent.com/AdminDevol/MailDevol/main/Devol_bola.ico"
+  },
+  "targetFramework": "Legacy"
+}

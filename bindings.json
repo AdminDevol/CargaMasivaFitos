@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "resources": [
+    {
+      "resource": "asset",
+      "metadata": {
+        "Value": {
+          "defaultValue": "row(\"Asset\").ToString",
+          "isExpression": false
+        },
+        "FolderPath": {
+          "isExpression": true
+        }
+      }
+    },
+    {
+      "resource": "queue",
+      "metadata": {
+        "FolderPath": {
+          "isExpression": true
+        }
+      }
+    },
+    {
+      "resource": "queue",
+      "metadata": {
+        "Value": {
+          "defaultValue": "col",
+          "isExpression": true
+        },
+        "FolderPath": {
+          "isExpression": true
+        }
+      }
+    },
+    {
+      "resource": "queue",
+      "metadata": {
+        "Value": {
+          "defaultValue": "in_Config(\"OrchestratorQueueName\").ToString",
+          "isExpression": false
+        },
+        "FolderPath": {
+          "isExpression": true
+        }
+      }
+    }
+  ]
+}
